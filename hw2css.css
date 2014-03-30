@@ -1,0 +1,116 @@
+div #title {
+height: 300px;
+
+
+}
+
+div #nav {
+    background-color: #AFD6FF;
+    padding: 10px 10px;
+	box-sizing:border-box;
+	
+}
+
+div .aside {
+height: 700px;
+border: dotted 6px #AFD6FF;
+box-sizing:border-box;
+padding:40px
+}
+
+div .content {
+ border: dotted 6px #AFD6FF;
+ box-sizing:border-box;
+ height: 700px;
+ padding:40px
+ 
+}
+
+
+div #footer {
+height: 100px;
+box-sizing:border-box;
+}
+
+
+ 
+
+
+div.spacer {
+    
+    height: 1em;
+}
+
+div.shadow{
+-moz-box-shadow:4px 4px 3px rgba(20%,20%,40%,0.5);
+-webkit-box-shadow:4px 4px 3px rgba(20%,20%,40%,0.5);
+box-shadow:4px 4px 3px rgba(20%,20%,40%,0.5);
+
+}
+
+div.transform{
+-moz-transform:rotate(3deg);
+-webkit-transform:rotate(3deg);
+-o-transform:rotate(3deg);
+-ms-transform:rotate(3deg);
+transform:rotate(3deg);
+}
+
+div.content_title{
+font-size: 24px;
+font-family:MingLiU DFKai-SB SimHei SimSun
+
+
+}
+
+article.content {
+font-size: 15px;
+
+
+}
+
+.box {
+  position: relative;
+  width: 450px;
+  height: 300px;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;
+  border-radius: 0%     0%     1%     0% /     0%     0%     20%     0%;
+}
+.box:before {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    width: 93%;
+    height: 96%;
+    bottom: -4px;
+    right: -15px;
+    background: #eee;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 16px rgba(0,0,0,0.33);
+    -webkit-transform: skew(1deg,1deg) translate(3px,8px);
+     -moz-transform: skew(1deg,1deg) translate(3px,8px);
+     -ms-transform: skew(1deg,1deg) translate(3px,8px);
+     -o-transform: skew(1deg,1deg) translate(3px,8px);
+     transform: skew(1deg,1deg) translate(3px,8px);
+    }
+.box:after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    width: 93%;
+    height: 96%;
+    bottom: -4px;
+    right: -15px;
+    background: #eee;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 16px rgba(0,0,0,0.33);
+    -webkit-transform: skew(1deg,1deg) translate(-5px,2px);
+     -moz-transform: skew(1deg,1deg) translate(-5px,2px);
+     -ms-transform: skew(1deg,1deg) translate(-5px,2px);
+     -o-transform: skew(1deg,1deg) translate(-5px,2px);
+     transform: skew(1deg,1deg) translate(-5px,2px);
+    }
+
+
+
